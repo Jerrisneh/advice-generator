@@ -45,11 +45,14 @@ body {
   background: hsl(150, 100%, 66%);
   cursor: pointer;
   transition: box-shadow 0.3s ease;
+  transform: scale(1.06);
 }
 
 #btn:hover {
-  box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%),
-    0 0 60px hsl(150, 100%, 66%);
+  box-shadow:
+    0 0 14px hsla(150, 100%, 66%, 0.9),
+    0 0 30px hsla(150, 100%, 66%, 0.7),
+    0 0 55px hsla(150, 100%, 66%, 0.5);
 }
 
 @media (max-width: 768px) {
